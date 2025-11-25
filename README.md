@@ -1,17 +1,11 @@
-<a name="readme-top"></a>
+# Ishaan Bandekar - Portfolio
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/IshaanBandekar/portfolio-website?style=social)](https://github.com/IshaanBandekar/portfolio-website/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/IshaanBandekar/portfolio-website?style=social)](https://github.com/IshaanBandekar/portfolio-website/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/IshaanBandekar/portfolio-website)](https://github.com/IshaanBandekar/portfolio-website/issues)
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
-
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/pulls "GitHub pull requests")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
+Welcome to my professional portfolio website! This is a modern, responsive portfolio built with Next.js, TypeScript, and Tailwind CSS, showcasing my projects, skills, and experience.
 
 <!-- Table of Contents -->
 <details>
@@ -39,57 +33,60 @@
 
 </details>
 
-## :bangbang: Folder Structure
+## 🚀 Features
 
-Here is the folder structure of this app.
+- ✨ Modern and responsive design
+- 🎨 Interactive UI with smooth animations
+- 📱 Mobile-friendly layout
+- ⚡ Optimized performance
+- 🤖 AI-powered chatbot for interactive Q&A
 
-```bash
-space-portfolio/
-  |- app/
-    |-- favicon.ico
-    |-- globals.css
-    |-- layout.tsx
-    |-- page.tsx
-  |- components/
-    |-- main/
-        |--- encryption.tsx
-        |--- footer.tsx
-        |--- hero.tsx
-        |--- navbar.tsx
-        |--- projects.tsx
-        |--- skills.tsx
-        |--- star-background.tsx
-    |-- sub/
-        |--- hero-content.tsx
-        |--- project-card.tsx
-        |--- skill-data-provider.tsx
-        |--- skill-text.tsx
-  |- config/
-    |-- index.ts
-  |- constants/
-    |-- index.ts
-  |- lib/
-    |-- motion.ts
-    |-- utils.ts
-  |- public/
-    |-- projects/
-    |-- skills/
-    |-- videos/
-    |-- hero-bg.svg
-    |-- lock-main.png
-    |-- lock-top.png
-    |-- logo.png
-  |- .eslintrc.json
-  |- .gitignore
-  |- next.config.js
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.js
-  |- tailwind.config.ts
-  |- tsconfig.json
-```
+## 🛠️ Technologies Used
 
-<br />
+- [Next.js](https://nextjs.org/): React framework for server-side rendering
+- [TypeScript](https://www.typescriptlang.org/): Type-safe JavaScript
+- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/): Animation library
+- [React Icons](https://react-icons.github.io/react-icons/): Popular icons for React
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/IshaanBandekar/portfolio-website.git
+   cd portfolio-website
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Create a `.env.local` file and add your environment variables:
+   ```
+   PERPLEXITY_API_KEY=your_api_key_here
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+- GitHub: [@IshaanBandekar](https://github.com/IshaanBandekar)
+- LinkedIn: [Ishaan Bandekar](https://linkedin.com/in/ishaan-bandekar)
+- Email: your.email@example.com
 
 ## :toolbox: Getting Started
 
