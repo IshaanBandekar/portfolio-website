@@ -117,7 +117,7 @@ export const AIChatbot = () => {
               <Bot className="w-8 h-8 text-cyan-300" />
             </div>
             <h3 className="text-xl font-semibold text-cyan-100 mb-2">How can I help you today?</h3>
-            <p className="text-gray-400 max-w-md">Ask me anything about my skills, experience, or projects. I'm here to assist you!</p>
+            <p className="text-gray-400 max-w-md">Ask me anything about my skills, experience, or projects. I&apos;m here to assist you!</p>
           </div>
         ) : (
           <div className="space-y-6">
