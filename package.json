@@ -1,5 +1,5 @@
 {
-  "name": "space-portfolio",
+  "name": "ishaan-bandekar-portfolio",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -19,7 +19,7 @@
     "nextjs",
     "vercel",
     "react",
-    "space-portfolio",
+    "portfolio-website",
     "portfolio",
     "react-icons",
     "cn",
@@ -48,11 +48,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IshaanBandekar"
+    "url": "https://github.com/IshaanBandekar/portfolio-website.git"
   },
-  "homepage": "https://github.com/IshaanBandekar",
+  "homepage": "https://github.com/IshaanBandekar/portfolio-website",
   "bugs": {
-    "url": "https://github.com/IshaanBandekar",
+    "url": "https://github.com/IshaanBandekar/portfolio-website/issues",
     "email": "hire.ishaan4ai@gmail.com"
   },
   "dependencies": {
