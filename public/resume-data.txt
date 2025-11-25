@@ -1,0 +1,65 @@
+Ishaan Bandekar
+(551) 364-7772 | hire.ishaan4ai@gmail.com | github.com/IshaanBandekar | linkedin.com/in/ishaan-bandekar
+
+Data scientist with 2+ years building end-to-end ML and GenAI solutions in Python/SQL, spanning data ingestion, feature engineering, model development, evaluation, and deployment, experienced with LLM applications for data extraction, RAG, and automation, coupled with rigorous QA, experiment tracking, and stakeholder storytelling to drive measurable impact across product and operations in agile teams.
+
+EDUCATION
+
+Stevens Institute of Technology, Hoboken, NJ
+Master of Science in Data Science, GPA 3.75, May 2025
+Coursework: Probability Theory, Machine Learning, Statistical Modelling & Analysis, Optimization for Data Science,
+Deep Learning, Time Series Analysis, ETL, Bloomberg, Data Visualizations, NLP, Data Mining, Gen AI.
+
+Mumbai University, Mumbai, India
+Bachelor of Technology in Computer Science, GPA 3.5, May 2023
+Coursework: Artificial Intelligence, Quantitative Analysis, Big Data Analytics, Database Management, Cloud Computing
+
+SKILLS
+
+Languages: Python, R, Java, C, C++, HTML/CSS, JavaScript, SAS, SQL, Kotlin, PySpark, MATLAB, PHP, TypeScript
+Developer Tools: VS Code, React JS, Firebase, Flask, RStudio, Google Cloud Platform, Android Studio, Google Data Studio
+Technologies & Frameworks: MS Office / Google Workspace, Tableau, Power BI, GitHub, Bloomberg, Gen AI
+ML Libraries: NLTK, scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Keras, Matplotlib, Seaborn, XGBoost, LightGBM, OpenAI
+
+EXPERIENCE
+
+Guiding Elephant Consulting LLC — Junior Web & Data Engineer, Boca Raton, FL (Jul 2025 – Present)
+- Built and deployed a website chatbot leveraging an LLM fine-tuned on a proprietary knowledge base to deliver
+  accurate, context-aware answers for customer inquiries, improving self-serve resolution and latency KPIs.
+- Designed a scalable, multi-stage lead generation pipeline for discovery, crawl, enrichment, quality scoring,
+  deduplication, and storage using API/search sources and AI-assisted extraction.
+- Implemented deduplication and quality controls to cut redundancy and increase qualified lead yield.
+
+Student Residential Services, Stevens Institute of Technology — Student Residential Database Administrator (Sep 2024 – May 2025)
+- Managed student residential databases, ensuring data accuracy, performance, and secure access.
+- Analyzed housing and occupancy data to create reports for strategic decisions and service optimization.
+- Developed and optimized database queries and workflows to improve data retrieval and support departmental goals.
+
+Uniwide Industries Pvt. Ltd., Mumbai, India — Data Engineer Intern (Aug 2022 – Jun 2023)
+- Led a sentiment analysis project on customer feedback data using NLP techniques.
+- Built a deep learning classifier in TensorFlow and Keras, achieving >85% accuracy and ~11% improvement
+  over the previous model.
+- Deployed the model into production, integrating with the CRM system to automate sentiment analysis.
+
+PROJECTS
+
+Lead Generation System — Python, APIs, Web Crawling, NLP, Deduplication (Jul 2025 – Oct 2025)
+- Built a multi-stage ETL pipeline to discover, crawl, and extract business leads from search engines and APIs.
+- Used Python and Selenium-free crawlers with NLP extraction to target specific industries and geographies.
+- Implemented enrichment, quality scoring, and deduplication to reduce redundancy and increase qualified leads.
+
+F1 Tax Navigator — Python, FastAPI, Next.js, Supabase (Dec 2024 – Apr 2025)
+- Created a RAG system to help F1 students file taxes, using an Ollama LLM for accurate guidance.
+- Used crawl4AI to retrieve and extract information and build a knowledge base.
+- Built a secure FastAPI backend with Supabase Postgres for vector embeddings and a Next.js frontend for UX.
+
+Big Data Analysis of MOX Sensor Resistance | PySpark, Python, SQL
+- Analyzed 3.8M-row dataset using PySpark on Databricks and GCP
+- Evaluated multiple regression models for resistance value prediction
+- Optimized performance across distributed computing nodes
+
+Sarcasm Detector | Python, Machine Learning, NLP
+- Implemented and compared multiple ML models (SVM, Logistic Regression, Random Forest) for sarcasm detection
+- Achieved 75%+ accuracy on 150K+ sentence dataset using sentiment analysis and NLP features
+- Built full-stack application with Firebase backend and Flask/React frontend for model deployment
+
