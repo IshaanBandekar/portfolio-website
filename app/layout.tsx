@@ -129,17 +129,14 @@ export default function RootLayout({ children }: PropsWithChildren) {
           `}
         </Script>
       </head>
-      <body
-        className={cn(
-          "bg-[#030014] overflow-y-scroll overflow-x-hidden overflow-anchor-none",
-          inter.className
-        )}
-      >
-        <StarsCanvas />
+      <body className={cn(inter.className, "bg-[#030014] min-h-screen flex flex-col")}>
         <Suspense fallback={null}>
           <Navbar />
         </Suspense>
-        {children}
+        <main className="flex-1 pt-20 relative z-10">
+          <StarsCanvas />
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

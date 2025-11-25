@@ -56,27 +56,32 @@ export const HeroContent = () => {
         <motion.a
           href="#ai-assistant"
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px] flex items-center justify-center gap-2"
           initial="hidden"
           animate="visible"
         >
-          🤖 Ask AI About Me
+          <span className="text-xl">🤖</span> Ask AI About Me
         </motion.a>
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center mt-10 md:mt-0"
+        className="w-full max-w-[500px] h-auto flex justify-center items-center mt-10 md:mt-0 mx-auto"
         initial="hidden"
         animate="visible"
       >
         <Image
           src="/hero-bg.svg"
           alt="work icons"
-          height={650}
-          width={650}
+          width={500}
+          height={500}
+          priority
           draggable={false}
-          className="select-none"
+          className="w-full h-auto select-none"
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+          }}
         />
       </motion.div>
     </motion.div>
