@@ -47,7 +47,7 @@ export const Navbar = () => {
   }, [pathname, searchParams]);
 
   return (
-    <div className="w-full h-[80px] fixed top-0 left-0 right-0 shadow-lg shadow-[#2A0E61]/50 bg-[#030014e6] backdrop-blur-md z-30 px-4 md:px-8 lg:px-12">
+    <div className="w-full h-[80px] fixed top-0 left-0 right-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001499] backdrop-blur-md z-30 px-4 md:px-8 lg:px-12">
       {/* Navbar Container */}
       <div className="w-full max-w-[1800px] mx-auto h-full grid grid-cols-3 items-center px-2 md:px-4">
         {/* Left Section - Name */}
