@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import type { PropsWithChildren } from "react";
+import { Suspense } from "react";
 import Script from "next/script";
 
 import { Footer } from "@/components/main/footer";
@@ -129,7 +130,9 @@ export default function RootLayout({ children }: PropsWithChildren) {
         )}
       >
         <StarsCanvas />
-        <Navbar />
+        <Suspense fallback={null}>
+          <Navbar />
+        </Suspense>
         {children}
         <Footer />
       </body>
