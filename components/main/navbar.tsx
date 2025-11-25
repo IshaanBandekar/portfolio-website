@@ -47,14 +47,14 @@ export const Navbar = () => {
   }, [pathname, searchParams]);
 
   return (
-    <div className="w-full h-[125px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-12">
+    <div className="w-full h-[100px] md:h-[110px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-4 md:px-8 lg:px-12">
       {/* Navbar Container */}
-      <div className="w-full h-full grid grid-cols-3 items-center px-4">
+      <div className="w-full max-w-[1800px] mx-auto h-full grid grid-cols-3 items-center px-2 md:px-4">
         {/* Left Section - Name */}
         <div className="flex justify-start">
           <Link
             href="/"
-            className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400 hover:from-cyan-300 hover:to-purple-300 transition-all duration-300"
+            className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400 hover:from-cyan-300 hover:to-purple-300 transition-all duration-300"
           >
             Ishaan Bandekar
           </Link>

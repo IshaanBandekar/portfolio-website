@@ -25,7 +25,7 @@ export const SKILL_DATA = [
 
   // Row 2 (9 icons – web app & APIs)
   { skill_name: "JavaScript", image: "js.png", width: 65, height: 65 },
-  { skill_name: "TypeScript", image: "ts.png", width: 65, height: 65 },
+  { skill_name: "TypeScript", image: "https://img.icons8.com/color/96/typescript.png", width: 70, height: 70 },
   { skill_name: "React", image: "react.png", width: 70, height: 70 },
   { skill_name: "Next.js", image: "next.png", width: 70, height: 70 },
   { skill_name: "Node.js", image: "node.png", width: 70, height: 70 },
@@ -110,9 +110,9 @@ export const FRONTEND_SKILL = [
   },
   {
     skill_name: "TypeScript",
-    image: "ts.png",
-    width: 65,
-    height: 65,
+    image: "https://img.icons8.com/color/96/typescript.png",
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Next.js 14",

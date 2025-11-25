@@ -15,9 +15,9 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="relative flex flex-col md:flex-row items-center justify-center px-4 sm:px-8 md:px-12 lg:px-20 mt-32 md:mt-40 w-full z-[20] max-w-[1800px] mx-auto"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full max-w-7xl flex flex-col gap-5 justify-center m-auto text-start px-2">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
@@ -29,8 +29,8 @@ export const HeroContent = () => {
         </motion.div>
 
         <motion.div
-          variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
+          variants={slideInFromLeft}
+          className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl md:text-6xl font-bold text-white w-full max-w-[600px] h-auto"
         >
           <span>
             Hi, I&apos;m{" "}
@@ -42,7 +42,7 @@ export const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-base sm:text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m a Data Scientist and Data Engineer with extensive experience in data infrastructure, 
           analytics, and AI/ML systems. I specialize in building scalable data pipelines and 
@@ -60,7 +60,7 @@ export const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex justify-center items-center mt-10 md:mt-0"
       >
         <Image
           src="/hero-bg.svg"
