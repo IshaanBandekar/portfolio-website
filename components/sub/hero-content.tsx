@@ -29,8 +29,10 @@ export const HeroContent = () => {
         </motion.div>
 
         <motion.div
-          variants={slideInFromLeft}
+          variants={slideInFromLeft(0.1)}
           className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl md:text-6xl font-bold text-white w-full max-w-[600px] h-auto"
+          initial="hidden"
+          animate="visible"
         >
           <span>
             Hi, I&apos;m{" "}
@@ -43,6 +45,8 @@ export const HeroContent = () => {
         <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-base sm:text-lg text-gray-400 my-5 max-w-[600px]"
+          initial="hidden"
+          animate="visible"
         >
           I&apos;m a Data Scientist and Data Engineer with extensive experience in data infrastructure, 
           analytics, and AI/ML systems. I specialize in building scalable data pipelines and 
@@ -53,6 +57,8 @@ export const HeroContent = () => {
           href="#ai-assistant"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px]"
+          initial="hidden"
+          animate="visible"
         >
           🤖 Ask AI About Me
         </motion.a>
@@ -61,6 +67,8 @@ export const HeroContent = () => {
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center mt-10 md:mt-0"
+        initial="hidden"
+        animate="visible"
       >
         <Image
           src="/hero-bg.svg"
